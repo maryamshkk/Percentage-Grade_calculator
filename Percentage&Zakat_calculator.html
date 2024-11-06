@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 2</title>
+</head>
+<body>
+    <!-- Percentage Calculator  -->
+        <h1> Marks Percentage Calculator </h1>
+        <!-- Form -->
+        <form>
+        <label for="name">Name</label>
+        <input type="text" id="name" placeholder="Enter your Name">
+        <!-- Obtained marks -->
+        <label for="obtm">Obtained Marks</label>
+        <input type="text" id="obtm" placeholder="Enter Obtained Marks">
+        <!-- Total Marks -->
+        <label for="tm">Total Marks</label>
+        <input type="text" id="tm" placeholder="Enter Total Marks">
+        <!-- Button -->
+        <button type="submit" onclick="percentage(); return false"> Click Me </button>
+        <h4 id="perc"></h4> 
+        </form>
+
+    <!-- Zakat Calculator -->
+        <h1> Zakat Percentage Calculator</h1>
+        <!-- Wealth -->
+        <label for="wealth">Enter your wealth </label>
+        <input type="text" placeholder="Enter Wealth (in currency)" id="welth">
+        <!-- Submit -->
+        <button type="button" onclick="zakatcalc(); return false"> Submit </button>
+        <!-- Result Print -->
+        <h4 id="zkat"></h4> 
+    
+    <!-- Js linking -->
+        <script src="./Percentage&Zakat_calculator.js"></script>
+</body>
+</html>
